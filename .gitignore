@@ -4,8 +4,6 @@
 /app/Http/Middleware
 /database
 /config
-/bootstrap
-/storage
 Homestead.yaml
 Homestead.json
 .env
