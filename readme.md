@@ -1,10 +1,8 @@
 # Archontos
 Archontos is a forum made with Laravel 5.2 and Bootstrap 3.
 
-This is NOT a CMS and so it's impossible to build your own forum with this.
+Everything is freely available and usable the way you want. Only the public folder is missing, which you can freely make yourself.
 
-Most core parts like the middlewares, the configurations and the database are intentionally missing, as it could be a source of potential security flaw. The public folder is also missing because it's useless to provide it, again because Archontos is not a CMS.
-
-Basically, the Models (most of it), Views and Controllers are available.
+As of now, the current release is completely bugged due to uncomplete migration to laravel 5.3, because of a lack of time. But it shall soon be.
 
 Archontos was once used on a public forum.

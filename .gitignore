@@ -1,9 +1,5 @@
-/vendor
 /node_modules
 /public
-/app/Http/Middleware
-/database
-/config
 Homestead.yaml
 Homestead.json
 .env
