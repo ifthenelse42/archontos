@@ -6,9 +6,9 @@
 <html lang="fr">
 	<head>
 		<?php
-		$titreAccueil = "Lancta | Communauté libre et démocratique de l'internet";
-		$description = "Lancta est un forum promulguant la liberté d'expression et la démocratie au sein de l'internet. Rejoignez un forum où seul la loi restreint la liberté de ses membres.";
-		$keywords = "lancta, lunctus, liberté, liberte, freedom, expression, ifthenelse, internet, forum, sans, règle, règlement, libre, discussion, argument, arguments, lunctum, no, limit, content, any";
+		$titreAccueil = "Archontos | Forum";
+		$description = "Description of the forum";
+		$keywords = "archontos, any";
 		?>
 		<meta charset="utf-8">
 		<meta name="description" content="{{ $description }}">
@@ -21,11 +21,11 @@
 		@endif
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="csrf-token" content="{{ csrf_token() }}">
-		<title>@if(empty(Request::segment(1))) {{ $titreAccueil }} @else @yield('titre') | Lancta @endif</title>
+		<title>@if(empty(Request::segment(1))) {{ $titreAccueil }} @else @yield('titre') | archontos @endif</title>
 		<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 		<link href="{{ asset('css/override.css') }}" rel="stylesheet">
 		<link href="{{ asset('css/ekko-lightbox.min.css') }}" rel="stylesheet">
-		<link rel="shortcut icon" href="{{ asset('images/lancta.ico') }}">
+		<link rel="shortcut icon" href="{{ asset('images/archontos.ico') }}">
 
 		<script src="{{ asset('js/jquery-1.11.3.min.js') }}"></script>
 		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
@@ -53,7 +53,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/lancta.png') }}" width="150" height="20" /></a>
+						<a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/archontos.png') }}" width="150" height="20" /></a>
 					</div>
 
 					<div id="navbar" class="navbar-collapse collapse">
@@ -153,7 +153,7 @@
 					<div class="rows">
 						<div class="col-md-4 hidden-xs hidden-sm">
 							<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> A propos du site<hr />
-							Lancta - 0.5<br />
+							archontos - 0.5<br />
 							Remerciements à <a href="{{ url('https://gregjs.com') }}">greg-js</a>, Arigine et Rekey<br />
 						</div>
 

@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Maintenance | Lancta </title>
+	<title>Maintenance | archontos </title>
 	<link href="{{ URL::asset('css/bootstrap.min.css') }}" rel="stylesheet">
 	<link href="{{ URL::asset('css/maintenance.css') }}" rel="stylesheet">
 
@@ -17,7 +17,7 @@
 			<div class="site-wrapper-inner">
 				<div class="cover-container">
 					<div class="inner cover">
-						<h1 class="cover-heading">Lancta</h1>
+						<h1 class="cover-heading">Archontos</h1>
 						<p class="lead">Le forum est en cours de mise à jour.</p>
 					</div>
 				</div>

@@ -12,7 +12,7 @@
 			</div>
 			<div class="panel-body">
 				<p class="text-muted">
-				Bienvenue dans le formulaire d'inscription de Lancta.
+				Bienvenue dans le formulaire d'inscription de archontos.
 				<br />
 				Vous pourrez vous connecter directement après vous êtres inscris.
 				<br />
@@ -44,7 +44,7 @@
 
 					<div class="form-group">
 						<label>
-							<input type="checkbox" name="reglement"> j'ai lu et approuvé les <a href="{{ url('condition-generale-utilisation') }}" target="_blank">conditions générales d'utilisation de Lancta</a>
+							<input type="checkbox" name="reglement"> j'ai lu et approuvé les <a href="{{ url('condition-generale-utilisation') }}" target="_blank">conditions générales d'utilisation de archontos</a>
 					    </label>
 					</div>
 

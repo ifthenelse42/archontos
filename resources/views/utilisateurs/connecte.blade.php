@@ -1,7 +1,7 @@
 @extends('template.all')
 
 
-@section('titre') Lancta + Accueil @endsection
+@section('titre') archontos + Accueil @endsection
 
 @section('contenu')
 

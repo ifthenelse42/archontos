@@ -9,7 +9,7 @@
 	@if($forum->where('categorie_id', $categories->id)->count() > 0)
 		<div class="col-md-12 col-xs-12">
 			<div class="list-group list-categorie">
-				<span class="list-group-item background-lancta">
+				<span class="list-group-item background-archontos">
 					<div class="pull-right">
 
 					</div>

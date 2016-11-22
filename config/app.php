@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://www.lancta.net'),
+    'url' => env('APP_URL', 'http://www.archontos.net'),
 
     /*
     |--------------------------------------------------------------------------

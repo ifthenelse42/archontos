@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Vous êtes banni | Lancta </title>
+	<title>Vous êtes banni | Archontos </title>
 	<link href="{{ URL::asset('css/bootstrap.min.css') }}" rel="stylesheet">
 	<link href="{{ URL::asset('css/maintenance.css') }}" rel="stylesheet">
 
