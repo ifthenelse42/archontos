@@ -47,7 +47,7 @@ class BaseTableSeeder extends Seeder
 
 		$idCategorie = DB::table('forum_categorie')->insertGetId([
 			'nom' => $nomCategorie,
-			'type' => 1,
+			'type' => "1",
 			'created_at' => $date,
 			'updated_at' => $date
 		]);
@@ -74,7 +74,7 @@ class BaseTableSeeder extends Seeder
 
 		$idCategorie2 = DB::table('forum_categorie')->insertGetId([
 			'nom' => $nomCategorie2,
-			'type' => 1,
+			'type' => "2",
 			'created_at' => $date,
 			'updated_at' => $date
 		]);

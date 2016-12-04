@@ -27,7 +27,7 @@ class CreateMpsTable extends Migration
 			->onDelete('cascade');
 
 			$table->longText('contenu');
-			$table->enum('status', [0,1]);
+			$table->smallInteger('status');
 			$table->ipAddress('ip');
             $table->timestamps();
         });

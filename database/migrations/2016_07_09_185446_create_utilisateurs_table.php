@@ -19,7 +19,7 @@ class CreateUtilisateursTable extends Migration
             $table->string('password');
 
 			// Colonnes d'administration et modération \\
-			$table->enum('level', [0,1,2,3,4]);
+			$table->smallInteger('level');
 
 			/*
 			>>>>>>> HIERARCHIE DES NIVEAUX D'ACCES <<<<<<<
@@ -35,11 +35,11 @@ class CreateUtilisateursTable extends Migration
 
 			// Profil
 			$table->string('presentation');
-			$table->enum('activity', [0,1]);
+			$table->smallInteger('activity');
 
 			// Options
-			$table->enum('invisible', [0,1]);
-			$table->enum('anonymous', [0,1]);
+			$table->smallInteger('invisible');
+			$table->smallInteger('anonymous');
 
 			// ---------------------------------------- \\
 			$table->ipAddress('ip')->unique();

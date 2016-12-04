@@ -21,8 +21,8 @@ class MpsSujet extends Migration
 			->on('utilisateurs')
 			->onDelete('cascade');
 			$table->string('titre', 50);
-			$table->enum('status', [0,1]);
-			$table->enum('ouvert', [0,1]);
+			$table->smallInteger('status');
+			$table->smallInteger('ouvert');
 			$table->ipAddress('ip');
             $table->timestamps();
         });

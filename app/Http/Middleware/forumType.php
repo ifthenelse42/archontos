@@ -62,13 +62,13 @@ class forumType
 
 				else
 				{
-					return redirect('/')->with('error', "Vous ne pouvez pas accéder à ce forum.");
+					return redirect('/')->with('error', "Vous ne pouvez pas accéder à ce forum."); // le problème de l'upgrade 5.3 viens d'ici
 				}
 			}
 
 			else
 			{
-				return $next($request); // on s'en fou alors on continue
+                return $next($request);
 			}
 		}
 

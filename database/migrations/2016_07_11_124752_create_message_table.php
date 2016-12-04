@@ -28,8 +28,8 @@ class CreateMessageTable extends Migration
 			 ->onDelete('cascade');
 
              $table->longText('contenu');
-			 $table->enum('status', [0,1]);
-			 $table->enum('anonymous', [0,1]);
+			 $table->smallInteger('status');
+			 $table->smallInteger('anonymous');
 			 $table->ipAddress('ip');
              $table->timestamps();
          });

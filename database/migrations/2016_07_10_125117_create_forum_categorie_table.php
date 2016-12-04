@@ -21,7 +21,7 @@ class CreateForumCategorieTable extends Migration
 			TYPE 2 = CONNECTE UNIQUEMENT
 			TYPE 3 = MODERATION
 			*/
-			$table->enum('type', [0,1,2,3]);
+			$table->smallInteger('type');
             $table->timestamps();
         });
     }

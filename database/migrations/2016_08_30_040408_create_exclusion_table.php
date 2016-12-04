@@ -34,8 +34,8 @@ class CreateExclusionTable extends Migration
 
 			$table->integer('forum_id')->unsigned();
 			$table->integer('message_id')->unsigned();
-			$table->enum('definitive', [0,1]);
-			$table->enum('type', [1,2,3]);
+			$table->smallInteger('definitive');
+			$table->smallInteger('type');
 			$table->timestamp('remain');
 
             $table->timestamps();

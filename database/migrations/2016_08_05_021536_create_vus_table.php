@@ -17,7 +17,7 @@ class CreateVusTable extends Migration
 
 			// 1 = messages des forums
 			// 2 = messages privés
-			$table->enum('location', [1,2]);
+			$table->smallInteger('location');
 			$table->integer('location_id')->unsigned();
 
 			$table->integer('utilisateurs_id')->unsigned();

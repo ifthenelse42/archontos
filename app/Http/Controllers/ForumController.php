@@ -72,8 +72,10 @@ class ForumController extends Controller
 				'forum' => $forum,
 				'categorie' => $categorie
 				->orderBy('id', 'ASC')
-				->where('type', '<', 2) // il voit le type 2 1 et 0
-				->get(),
+                ->where('type', 2)
+                ->orWhere('type', 1)
+                ->orWhere('type', 0)
+                ->get(),
 				'temps' => $temps,
 				'forum2' => new Forum(),
 				'temps' => $temps,
@@ -91,7 +93,7 @@ class ForumController extends Controller
 				'categorie' => $categorie
 				->orderBy('id', 'ASC')
 				->where('type', 1) // il voit le type tous
-				->orWhere('type', 2) // et de type connecté
+				->orWhere('type', 2) // ou de type connecté
 				->get(),
 				'temps' => $temps,
 				'forum2' => new Forum(),

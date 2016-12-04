@@ -28,9 +28,9 @@ class CreateSujetTable extends Migration
 			->onDelete('cascade');
 
              $table->string('titre', 500);
-			 $table->enum('status', [0,1,2]);
-			 $table->enum('ouvert', [0,1]);
-			 $table->enum('anonymous', [0,1]);
+			 $table->smallInteger('status');
+			 $table->smallInteger('ouvert');
+			 $table->smallInteger('anonymous');
 			 $table->ipAddress('ip');
              $table->timestamps();
          });

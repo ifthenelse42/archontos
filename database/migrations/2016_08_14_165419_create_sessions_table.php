@@ -19,7 +19,7 @@ class CreateSessionsTable extends Migration
 
 			$table->text('location'); // doit être l'équivalent de Request::param(1)
 			$table->integer('location_id')->unsigned(); // si c'est dans un sujet, alors c'est l'id ... etc
-			$table->enum('invisible', [0,1]);
+			$table->smallInteger('invisible');
 			$table->ipAddress('ip');
             $table->timestamps();
         });
