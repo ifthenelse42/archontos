@@ -1,8 +1,8 @@
 # Archontos
-Archontos is a forum made with Laravel 5.2 and Bootstrap 3.
+Archontos is a forum made with Laravel 5.3 and Bootstrap 3.
 
 Everything is freely available and usable the way you want. Only the public folder is missing, which you can freely make yourself.
 
-As of now, the current release is completely bugged due to uncomplete migration to laravel 5.3, because of a lack of time. But it shall soon be.
-
 Archontos was once used on a public forum.
+
+It will one day have a complete guide on how to install it for yourself, but for now, you must know some basics of Laravel to know how to install it properly.
