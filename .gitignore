@@ -2,6 +2,7 @@
 /public
 Homestead.yaml
 Homestead.json
+composer.lock
 .env
 sql
 artisan

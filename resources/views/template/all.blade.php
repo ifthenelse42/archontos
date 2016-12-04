@@ -152,14 +152,14 @@
 				<div class="container text-muted">
 					<div class="rows">
 						<div class="col-md-4 hidden-xs hidden-sm">
-							<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> A propos du site<hr />
-							archontos - 0.5<br />
-							Remerciements à <a href="{{ url('https://gregjs.com') }}">greg-js</a>, Arigine et Rekey<br />
+							<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> About us<hr />
+							Archontos - 0.5<br />
+							Many thanks to  <a href="{{ url('https://gregjs.com') }}">greg-js</a><br />
 						</div>
 
 						<div class="col-md-4 hidden-xs hidden-sm">
 							<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> L'équipe<hr />
-							Fondateurs : IFThenElse et Arigine
+							Founder : IFThenElse
 						</div>
 
 						<div class="col-md-4">
