@@ -1,8 +1,11 @@
 /node_modules
-/public
 Homestead.yaml
 Homestead.json
 composer.lock
 .env
 sql
-artisan
+/public/smileys
+/public/stickers
+/public/avatars/1.png
+/public/favicon.ico
+/public/images/ifthenelse.png
